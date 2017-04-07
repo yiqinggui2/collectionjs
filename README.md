@@ -2,8 +2,6 @@ This library provides a set of common data structures written in vanilla Javascr
 
 ## List of Data Structures and Operations
 
-* Stack
-  Method: push, pop, peek and size
+* Stack - push, pop, peek and size
 
-* Queue
-  Method: enqueue, dequeue, peek and size
+* Queue - enqueue, dequeue, peek and size

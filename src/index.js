@@ -5,7 +5,4 @@
 
 import CollectionJS from './collectionjs/collectionjs';
 
-let stack = new CollectionJS.Stack();
-console.log(stack.toString());
-
-//window.CollectionJS = CollectionJS;
+window.CollectionJS = CollectionJS;

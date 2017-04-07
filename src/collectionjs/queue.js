@@ -1,8 +1,8 @@
 import Collection from './collection';
 
-class Stack extends Collection{
+class Queue extends Collection{
   constructor() {
-    let type = "stack";
+    let type = "queue";
     super(type);
     this.buffer = [];
   }
@@ -11,16 +11,16 @@ class Stack extends Collection{
     return this.buffer.length;
   }
   
-  pop() {
+  enqueue(e) {
+    this.buffer.push(e);
+  }
+  
+  dequeue() {
     if(this.size() === 0) {
       return null;
     } else {
       return this.buffer.shift();
     }
-  }
-  
-  push(e) {
-    this.buffer.unshift(e);
   }
   
   peek() {
@@ -33,4 +33,4 @@ class Stack extends Collection{
   
 }
 
-export default Stack;
+export default Queue;
