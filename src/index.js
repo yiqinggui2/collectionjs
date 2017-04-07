@@ -1,9 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+//import React from 'react';
+//import ReactDOM from 'react-dom';
+//import App from './App';
+//import './index.css';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+import CollectionJS from './collectionjs/collectionjs';
+
+let stack = new CollectionJS.Stack();
+console.log(stack.toString());
+
+//window.CollectionJS = CollectionJS;
